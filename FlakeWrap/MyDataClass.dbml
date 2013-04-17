@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="InstanceData" Class="MyDataClassDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=08220-DHP;Initial Catalog=InstanceData;Integrated Security=True" SettingsObjectName="FlakeWrap.Properties.Settings" SettingsPropertyName="InstanceDataConnectionString1" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.FlakeWrap" Member="FlakeWraps">
+    <Type Name="FlakeWrap">
+      <Column Name="FlakeID" Type="System.String" DbType="VarChar(50) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="used" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+</Database>
