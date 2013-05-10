@@ -8,7 +8,7 @@ namespace FlakeWrap
 {
     class Program
     {
-        static int times = 3;
+        static int times = 100;
         static string url = "http://flake.delphi.euromoney.com/id?n=1000";
         
         
