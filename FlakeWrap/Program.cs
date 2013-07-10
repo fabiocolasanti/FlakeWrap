@@ -3,12 +3,13 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Net;
+using System.Configuration;
 
 namespace FlakeWrap
 {
     class Program
     {
-        static int times = 100;
+        static int times = Convert.ToInt16(ConfigurationManager.AppSettings["requiredInstances"]);
         static string url = "http://flake.delphi.euromoney.com/id?n=1000";
         
         
