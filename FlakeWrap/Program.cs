@@ -10,7 +10,7 @@ namespace FlakeWrap
     class Program
     {
         static int times = Convert.ToInt16(ConfigurationManager.AppSettings["requiredInstances"]);
-        static string url = "http://flake.delphi.euromoney.com/id?n=1000";
+        static string url = "http://plato.delphi04.euromoneydigital.com/flake/id?n=10";
         
         
         static void Main(string[] args)
